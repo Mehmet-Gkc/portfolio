@@ -29,7 +29,7 @@ function Navbar() {
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
       <div>
-        <h1 className="text-5xl font-great ml-2">Mehmet</h1>
+        <h1 className="text-5xl font-great ml-2">Mehmet Gökce</h1>
       </div>
 
       <ul className="hidden md:flex">
