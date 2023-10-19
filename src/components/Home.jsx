@@ -1,6 +1,7 @@
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import foto from '../assets/bildschirm.png'
+import { Link } from 'react-scroll';
 
 function Home() {
   return (
@@ -9,23 +10,15 @@ function Home() {
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold">I'm a Full Stack (Mern) Web Developer</h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Ich bin Mathematiker und arbeitete 7 Jahre lang mit Liebe als
-            Mathematiklehrer. Nachdem ich nach Deutschland gekommen bin, musste
-            ich eine neue Karriere und Richtung für mich finden. Ich habe
-            entdeckt, dass das Programmieren ähnlich dem Lösen einer
-            mathematischen Aufgabe ist, und habe mich diesem Bereich zugewandt.
-            Programmieren ist für mich sowohl ein neuer Beruf als auch ein neues
-            Hobby. Es ist eine neue virtuelle Welt, die darauf wartet, entdeckt
-            zu werden. Ich möchte so schnell wie möglich Teil dieser
-            Innovationswelt sein und mein Bestes für ihre Entwicklung geben.
+           
           </p>
           <div>
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-orange-300 to-red-500 cursor-pointer">
+            <Link to="portfolio" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-orange-300 to-red-500 cursor-pointer">
                 Portfolio
                 <span className="group-hover:rotate-90 duration-300">
                     <MdKeyboardArrowRight size={50} className="ml-1"/>
                 </span>
-            </button>
+            </Link>
           </div>          
         </div>
         <div className="">
