@@ -8,11 +8,11 @@ function Navbar() {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "startseite",
     },
     {
       id: 2,
-      link: "about",
+      link: "über mich",
     },
     {
       id: 3,
@@ -20,11 +20,11 @@ function Navbar() {
     },
     {
       id: 4,
-      link: "experience",
+      link: "kenntnisse",
     },
     {
       id: 5,
-      link: "contact",
+      link: "kontakt",
     },
   ];
   return (
