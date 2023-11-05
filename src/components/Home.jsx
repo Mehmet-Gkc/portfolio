@@ -7,11 +7,11 @@ function Home() {
   return (
     <div
       name="startseite"
-      className="h-screen w-full bg-gradient-to-b from-black to-gray-800 text-white"
+      className="h-auto md:h-screen w-full bg-gradient-to-b from-black to-gray-800 text-white"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full w-2/3">
-          <p className="text-3xl text-gray-200 py-4 max-w-md ">
+          <p className="text-3xl text-gray-200 py-4 max-w-md">
             Mein Name ist Mehmet Gökce
           </p>
 
@@ -19,7 +19,7 @@ function Home() {
             Ich bin ein Full Stack (Mern) Webentwickler
           </h2>
 
-          <div>
+          <div className="mx-auto md:mx-0">
             <Link
               to="über mich"
               smooth

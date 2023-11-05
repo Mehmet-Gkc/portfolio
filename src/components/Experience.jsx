@@ -86,7 +86,7 @@ function Experience() {
   return (
     <div
       name="kenntnisse"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black"
+      className="w-full h-auto bg-gradient-to-b from-gray-800 to-black"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -109,7 +109,7 @@ function Experience() {
             </div>
           ))}
         </div>
-        <div>
+        <div className="mx-auto md:mx-0">
           <Link
             to="kontakt"
             smooth

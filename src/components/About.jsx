@@ -6,7 +6,7 @@ function About() {
   return (
     <div
       name="über mich"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full h-auto md:h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-4">
@@ -32,7 +32,7 @@ function About() {
         </p>
         <br />
 
-        <div>
+        <div className="mx-auto md:mx-0">
           <Link
             to="portfolio"
             smooth
