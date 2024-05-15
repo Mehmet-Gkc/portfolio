@@ -1,7 +1,7 @@
 import React from "react";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-import foto from "../assets/image.png";
+import foto from "../assets/img/image.png";
 
 function Home() {
   return (
