@@ -12,75 +12,98 @@ import node from "../assets/logos/node.png";
 import sass from "../assets/logos/sass.png";
 import bootstrap from "../assets/logos/Bootstrap.png";
 import mongodb from "../assets/logos/mongodb.png";
+import php from "../assets/logos/php.png";
+import laravel from "../assets/logos/laravel.png";
+import mysql from "../assets/logos/mysql.jpg";
+
 
 function Experience() {
   const experience = [
     {
       id: 1,
-      title: "HTML",
-      src: html,
-      style: "shadow-orange-500",
-    },
-    {
-      id: 2,
-      title: "CSS",
-      src: css,
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
-      title: "JavaScript",
-      src: javascript,
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 4,
       title: "React",
       src: reactImage,
       style: "shadow-blue-600",
     },
     {
-      id: 5,
-      title: "Bootstrap",
-      src: bootstrap,
-      style: "shadow-indigo-500",
+      id: 2,
+      title: "JavaScript",
+      src: javascript,
+      style: "shadow-yellow-500",
     },
     {
-      id: 6,
-      title: "Tailwind",
-      src: tailwind,
-      style: "shadow-sky-400",
-    },
-    {
-      id: 7,
-      title: "Sass / Scss",
-      src: sass,
-      style: "shadow-pink-500",
-    },
-    {
-      id: 8,
+      id: 3,
       title: "Node JS",
       src: node,
       style: "shadow-green-300",
     },
     {
-      id: 9,
+      id: 4,
       title: "Mongo DB",
       src: mongodb,
       style: "shadow-green-500",
     },
     {
+      id: 5,
+      title: "PHP",
+      src: php,
+      style: "shadow-purple-400",
+    },
+    {
+      id: 6,
+      title: "Laravel",
+      src: laravel,
+      style: "shadow-orange-800",
+    },
+    {
+      id: 7,
+      title: "MYSQL",
+      src: mysql,
+      style: "shadow-blue-400",
+    },
+    {
+      id: 8,
+      title: "HTML",
+      src: html,
+      style: "shadow-orange-500",
+    },
+    {
+      id: 9,
+      title: "CSS",
+      src: css,
+      style: "shadow-blue-500",
+    }, 
+    {
       id: 10,
+      title: "Bootstrap",
+      src: bootstrap,
+      style: "shadow-indigo-500",
+    },
+    {
+      id: 11,
+      title: "Tailwind",
+      src: tailwind,
+      style: "shadow-sky-400",
+    },
+    {
+      id: 12,
+      title: "Sass / Scss",
+      src: sass,
+      style: "shadow-pink-500",
+    }, 
+    {
+      id: 13,
       title: "Git",
       src: git,
       style: "shadow-red-600",
     },
     {
-      id: 11,
+      id: 14,
       title: "GitHub",
       src: github,
       style: "shadow-gray-400",
     },
+  
   ];
 
   return (

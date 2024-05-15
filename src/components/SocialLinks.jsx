@@ -42,7 +42,7 @@ function SocialLinks() {
           My CV <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "Mehmet_CV.pdf/",
+      href: "Lebenslauf_Gökce,Mehmet.pdf/",
       style: "rounded-tr-md",
       download: true,
     },
